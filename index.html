@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uday Mali - Cloud & DevOps Engineer | IT & Technical Support Specialist | AWS, Linux, Docker, CI/CD, Network Diagnostics, Troubleshooting | MCA Scholar">
+    <meta name="keywords" content="Uday Mali, Cloud Engineer, DevOps Engineer, IT Support, Technical Support, AWS Architect, Terraform, Docker, Kubernetes, Jenkins, GitHub Actions, Troubleshooting, Customer Support, Portfolio, MCA, BCA">
+    <meta name="author" content="Uday Mali">
+    <title>Uday Mali | Cloud, DevOps & Technical Support Engineer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☁️</text></svg>">
+</head>
+<body>
+
+    <!-- Ambient Glow Background -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo" aria-label="Uday Mali Homepage">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-name">UDAY</span>
+                <span class="logo-dot">.</span>
+                <span class="logo-suffix">MALI</span>
+                <span class="logo-bracket">/&gt;</span>
+                <span class="pulse-indicator" title="Open to opportunities"></span>
+            </a>
+
+            <nav class="nav-links" id="navMenu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#support" class="nav-link">Tech Support</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#architecture" class="nav-link">Architecture</a>
+                <a href="#journey" class="nav-link">Journey</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#terminal" class="nav-link">CloudShell</a>
+                <a href="#contact" class="nav-link nav-btn-contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+
+                <!-- Dual Resume Dropdown -->
+                <div class="resume-dropdown">
+                    <button class="btn btn-sm btn-outline resume-trigger" id="resumeTrigger" aria-expanded="false">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        <span>Resumes</span>
+                        <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" class="chevron-icon"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="resume-menu" id="resumeMenu">
+                        <a href="assets/docs/Uday_Mali_DevOps_Resume.pdf" class="resume-item" target="_blank" rel="noopener noreferrer">
+                            <span class="resume-badge-icon">☁️</span>
+                            <div>
+                                <strong>Cloud & DevOps Resume</strong>
+                                <small>AWS, CI/CD, Terraform, Docker</small>
+                            </div>
+                        </a>
+                        <a href="assets/docs/Uday_Mali_Support_Resume.pdf" class="resume-item" target="_blank" rel="noopener noreferrer">
+                            <span class="resume-badge-icon">🎧</span>
+                            <div>
+                                <strong>Technical Support Resume</strong>
+                                <small>IT Systems, Troubleshooting, Customer Support</small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Mobile Navigation">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-wrapper">
+                        <span class="hero-badge">
+                            <span class="status-dot"></span> Available for Cloud, DevOps & Tech Support Roles
+                        </span>
+                        <span class="location-badge">
+                            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            Pune / Jalgaon, India
+                        </span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Architecting Cloud Systems & Resolving Technical Challenges
+                    </h1>
+                    
+                    <div class="typing-container">
+                        <span class="typing-prefix">I am a </span>
+                        <span class="typing-text" id="typingText"></span>
+                        <span class="cursor">&nbsp;</span>
+                    </div>
+
+                    <p class="hero-bio">
+                        BCA Graduate (<strong>CGPA 8.18</strong>) & MCA Scholar combining deep expertise in <strong>AWS Cloud Architecture, CI/CD Pipelines & Linux</strong> with customer-centric <strong>IT Systems & Technical Support</strong>. Skilled at diagnosing complex network & software incidents and automating infrastructure. Winner of <strong>1st Prize in District Avishkar Research Convention</strong>.
+                    </p>
+
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore Projects</span>
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        
+                        <!-- Quick Dual Resume Buttons -->
+                        <div class="resume-button-group">
+                            <a href="assets/docs/Uday_Mali_DevOps_Resume.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" title="Download AWS & DevOps Resume">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line></svg>
+                                <span>DevOps CV</span>
+                            </a>
+                            <a href="assets/docs/Uday_Mali_Support_Resume.pdf" class="btn btn-secondary btn-support-resume" target="_blank" rel="noopener noreferrer" title="Download Technical Support Resume">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                <span>Support CV</span>
+                            </a>
+                        </div>
+
+                        <a href="#contact" class="btn btn-outline">Let's Connect</a>
+                    </div>
+
+                    <div class="social-proof">
+                        <a href="https://github.com/Maliuday" target="_blank" rel="noopener noreferrer" class="social-chip" title="GitHub Profile">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                            <span>github.com/Maliuday</span>
+                        </a>
+                        <a href="https://linkedin.com/in/uday-mali-7aa1b7286" target="_blank" rel="noopener noreferrer" class="social-chip" title="LinkedIn Profile">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            <span>in/uday-mali-7aa1b7286</span>
+                        </a>
+                        <a href="mailto:maliuday0326@gmail.com" class="social-chip" title="Send Email">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <span>maliuday0326@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Photo Showcase Card with Custom User Photo -->
+                <div class="hero-visual">
+                    <div class="profile-card-wrapper">
+                        <div class="profile-card hero-photo-card">
+                            <div class="profile-photo-container">
+                                <img src="assets/images/profile.jpg" alt="Uday Mali - Cloud, DevOps & Tech Support Engineer" class="profile-photo-img" loading="eager">
+                                <div class="avatar-status-badge" title="Online & Ready">
+                                    <span class="status-ring"></span>
+                                </div>
+                            </div>
+                            <div class="profile-info">
+                                <h2 class="profile-name">Uday Mali</h2>
+                                <p class="profile-role">Cloud, DevOps & Tech Support Engineer</p>
+                                <div class="profile-badge-row">
+                                    <span class="tech-pill">AWS</span>
+                                    <span class="tech-pill">DevOps</span>
+                                    <span class="tech-pill">Tech Support</span>
+                                    <span class="tech-pill">Linux</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Floating Badges -->
+                            <div class="floating-badge badge-top-right">
+                                <span class="badge-icon">☁️</span>
+                                <div class="badge-text">
+                                    <span class="badge-title">AWS Certified</span>
+                                    <span class="badge-sub">Cloud Practitioner</span>
+                                </div>
+                            </div>
+
+                            <div class="floating-badge badge-bottom-left">
+                                <span class="badge-icon">🎧</span>
+                                <div class="badge-text">
+                                    <span class="badge-title">IT & Tech Support</span>
+                                    <span class="badge-sub">Incident Resolution</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="container">
+                <div class="stats-bar">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="6">6+</div>
+                        <div class="stat-label">Cloud & DevOps Projects</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">8.18</div>
+                        <div class="stat-label">BCA CGPA (Distinction)</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">1st</div>
+                        <div class="stat-label">Prize District Avishkar</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Rotational Shift Ready</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">BACKGROUND & PHILOSOPHY</span>
+                    <h2 class="section-title">About <span>Me</span></h2>
+                    <p class="section-desc">Blending strong analytical and problem-solving skills with practical cloud engineering and dedicated technical support.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-story">
+                        <h3 class="about-lead">
+                            Proactive engineer bridging infrastructure reliability, automated pipelines, and responsive technical support.
+                        </h3>
+                        <p>
+                            I hold a <strong>Bachelor of Computer Applications (BCA)</strong> from Moolji Jaitha College, Jalgaon with a <strong>CGPA of 8.18</strong>, and am currently pursuing my <strong>Master of Computer Applications (MCA)</strong> at the School of Computer Science, Kavayitri Bahinabai Chaudhari North Maharashtra University (KBCNMU).
+                        </p>
+                        <p>
+                            My background combines deep technical hands-on practice in <strong>AWS Cloud Architecture, Linux administration, Docker, and CI/CD pipelines</strong> with exceptional <strong>communication, technical troubleshooting, customer service, and incident resolution capabilities</strong>. I possess a natural aptitude for breaking down complex technical problems, diagnosing network and system bottlenecks, and communicating clearly with end-users and cross-functional teams.
+                        </p>
+                        <p>
+                            Comfortable working in <strong>fast-paced rotational shifts</strong>, handling client inquiries across phone, email, and ticketing desks, and driving high First-Contact Resolution (FCR) rates.
+                        </p>
+
+                        <div class="about-pillars">
+                            <div class="pillar-card">
+                                <div class="pillar-icon">🎧</div>
+                                <h4>Technical Support & SLA</h4>
+                                <p>Hardware, OS & network incident troubleshooting with clear customer communication.</p>
+                            </div>
+                            <div class="pillar-card">
+                                <div class="pillar-icon">⚡</div>
+                                <h4>Infrastructure as Code</h4>
+                                <p>Declarative, version-controlled provisioning with Terraform and modular blueprints.</p>
+                            </div>
+                            <div class="pillar-card">
+                                <div class="pillar-icon">🔄</div>
+                                <h4>Continuous Integration</h4>
+                                <p>Automated build, test, and container packaging pipelines with GitHub Actions & Jenkins.</p>
+                            </div>
+                            <div class="pillar-card">
+                                <div class="pillar-icon">🛡️</div>
+                                <h4>System Reliability & Cloud</h4>
+                                <p>Multi-AZ VPCs, Load Balancers, Linux server configurations, and proactive monitoring.</p>
+                            </div>
+                        </div>
+
+                        <div class="signature-block">
+                            <img src="assets/images/signature.png" alt="Uday Mali Signature" class="signature-img" onerror="this.style.display='none';">
+                            <div class="signature-info">
+                                <strong>Uday Manoj Mali</strong>
+                                <span>Cloud, DevOps & Technical Support Engineer | MCA Scholar</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card-col">
+                        <div class="info-card">
+                            <h3 class="card-heading">Quick Facts & Roles</h3>
+                            <ul class="fact-list">
+                                <li>
+                                    <span class="fact-label">Location:</span>
+                                    <span class="fact-value">Pune / Jalgaon, Maharashtra, India</span>
+                                </li>
+                                <li>
+                                    <span class="fact-label">Target Roles:</span>
+                                    <span class="fact-value">Technical Support Engineer, IT Support Specialist, Cloud & DevOps Engineer</span>
+                                </li>
+                                <li>
+                                    <span class="fact-label">Degree:</span>
+                                    <span class="fact-value">MCA (Pursuing 2025 – 2027) | BCA (8.18 CGPA)</span>
+                                </li>
+                                <li>
+                                    <span class="fact-label">University:</span>
+                                    <span class="fact-value">KBC North Maharashtra University</span>
+                                </li>
+                                <li>
+                                    <span class="fact-label">Shift Flexibility:</span>
+                                    <span class="fact-value text-emerald">Willing to work 24/7 rotational shifts</span>
+                                </li>
+                                <li>
+                                    <span class="fact-label">Languages:</span>
+                                    <span class="fact-value">English, Hindi, Marathi (Fluent)</span>
+                                </li>
+                                <li>
+                                    <span class="fact-label">Email:</span>
+                                    <span class="fact-value"><a href="mailto:maliuday0326@gmail.com">maliuday0326@gmail.com</a></span>
+                                </li>
+                                <li>
+                                    <span class="fact-label">Phone:</span>
+                                    <span class="fact-value"><a href="tel:+918626060798">+91-8626060798</a></span>
+                                </li>
+                                <li>
+                                    <span class="fact-label">Availability:</span>
+                                    <span class="fact-value text-emerald">Immediate Joining Available</span>
+                                </li>
+                            </ul>
+
+                            <div class="card-cta-group dual-btn-col">
+                                <a href="assets/docs/Uday_Mali_DevOps_Resume.pdf" class="btn btn-primary btn-block" target="_blank" rel="noopener noreferrer">
+                                    <span>Download DevOps Resume</span>
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                </a>
+                                <a href="assets/docs/Uday_Mali_Support_Resume.pdf" class="btn btn-secondary btn-block" target="_blank" rel="noopener noreferrer">
+                                    <span>Download Support Resume</span>
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Support & IT Services Section -->
+        <section id="support" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">SUPPORT CAPABILITIES</span>
+                    <h2 class="section-title">Technical Support & <span>IT Services</span></h2>
+                    <p class="section-desc">Practical proficiency in troubleshooting operating systems, networks, applications, and delivering customer excellence.</p>
+                </div>
+
+                <div class="support-grid">
+                    <!-- Support Card 1 -->
+                    <div class="support-card">
+                        <div class="support-icon-wrap support-blue">💻</div>
+                        <h3>Operating Systems & Desktop Support</h3>
+                        <p>Expertise in configuration, maintenance, and issue triage across client environments.</p>
+                        <ul class="support-list">
+                            <li><strong>Windows 10 / 11:</strong> System configuration, registry tweaks, driver installation, patch management, and BSOD troubleshooting.</li>
+                            <li><strong>Linux (Ubuntu / Debian / CentOS):</strong> Command line navigation, package management (apt/yum), user permissions, and cron jobs.</li>
+                            <li><strong>Peripheral & Hardware:</strong> Diagnostics for audio devices, webcams, printers, dual-monitor displays, and memory bottlenecks.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Support Card 2 -->
+                    <div class="support-card">
+                        <div class="support-icon-wrap support-green">🌐</div>
+                        <h3>Network Diagnostics & Connectivity</h3>
+                        <p>Isolating and resolving local, remote, and cloud connectivity issues efficiently.</p>
+                        <ul class="support-list">
+                            <li><strong>Network Tools:</strong> Proficient with <code>ping</code>, <code>traceroute</code>, <code>nslookup</code>, <code>netstat</code>, <code>ipconfig/ifconfig</code>.</li>
+                            <li><strong>Protocols & Services:</strong> TCP/IP, DNS configuration, DHCP lease renewals, default gateway routing, and firewall ports.</li>
+                            <li><strong>Remote Access & VPN:</strong> Remote Desktop Protocol (RDP), AnyDesk, TeamViewer, SSH keys, and secure corporate VPN tunnels.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Support Card 3 -->
+                    <div class="support-card">
+                        <div class="support-icon-wrap support-purple">📋</div>
+                        <h3>Application Support & Tools</h3>
+                        <p>Proficiency in essential productivity suites, ticketing workflows, and email setups.</p>
+                        <ul class="support-list">
+                            <li><strong>MS Office Suite:</strong> Advanced Word formatting, Excel formulas/data management, PowerPoint, and Outlook configuration.</li>
+                            <li><strong>Email & Web Services:</strong> IMAP/POP3/SMTP protocol settings, browser cache/cookie debugging, and certificate errors.</li>
+                            <li><strong>Ticketing & Documentation:</strong> Logging clear ticket summaries, tagging root causes, and creating step-by-step Knowledge Base guides.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Support Card 4 -->
+                    <div class="support-card">
+                        <div class="support-icon-wrap support-amber">🤝</div>
+                        <h3>Customer Excellence & Incident Triage</h3>
+                        <p>Calm, structured customer communication ensuring high First-Contact Resolution (FCR).</p>
+                        <ul class="support-list">
+                            <li><strong>Active Listening:</strong> Understanding user pain points patiently without technical jargon.</li>
+                            <li><strong>De-escalation:</strong> Handling distressed or escalated users with empathy, patience, and positive phrasing.</li>
+                            <li><strong>Rotational Shifts:</strong> Adaptable and energized to work in 24/7 rotational shifts and fast-paced desks.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">COMPETENCIES & TOOLS</span>
+                    <h2 class="section-title">Technical <span>Skills</span></h2>
+                    <p class="section-desc">A deep dive into the technologies, cloud infrastructure, and automation platforms I work with.</p>
+                </div>
+
+                <div class="skills-category-grid">
+
+                    <!-- Cloud & AWS -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="cat-icon aws-gradient">☁️</div>
+                            <div>
+                                <h3>Cloud Platforms & AWS</h3>
+                                <p>Public Cloud Architecture & Services</p>
+                            </div>
+                        </div>
+                        <p class="cat-description">Hands-on expertise architecting, securing, and maintaining scalable AWS cloud environments.</p>
+                        <div class="chip-grid">
+                            <span class="skill-chip">Amazon VPC</span>
+                            <span class="skill-chip">Amazon EC2</span>
+                            <span class="skill-chip">Amazon S3</span>
+                            <span class="skill-chip">Amazon RDS</span>
+                            <span class="skill-chip">Application Load Balancer</span>
+                            <span class="skill-chip">Auto Scaling Groups</span>
+                            <span class="skill-chip">AWS IAM</span>
+                            <span class="skill-chip">AWS CloudWatch</span>
+                            <span class="skill-chip">Route 53</span>
+                            <span class="skill-chip">AWS Lambda</span>
+                        </div>
+                    </div>
+
+                    <!-- Containers & Orchestration -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="cat-icon docker-gradient">🐳</div>
+                            <div>
+                                <h3>Containers & Orchestration</h3>
+                                <p>Microservices & Virtualization</p>
+                            </div>
+                        </div>
+                        <p class="cat-description">Containerizing applications for uniform development, staging, and production environments.</p>
+                        <div class="chip-grid">
+                            <span class="skill-chip">Docker</span>
+                            <span class="skill-chip">Dockerfile Multi-Stage</span>
+                            <span class="skill-chip">Docker Compose</span>
+                            <span class="skill-chip">Docker Hub</span>
+                            <span class="skill-chip">Container Networking</span>
+                            <span class="skill-chip">Volume Management</span>
+                            <span class="skill-chip">Kubernetes Fundamentals</span>
+                        </div>
+                    </div>
+
+                    <!-- IaC & Automation -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="cat-icon terraform-gradient">⚡</div>
+                            <div>
+                                <h3>Infrastructure as Code</h3>
+                                <p>Automated Declarative Provisioning</p>
+                            </div>
+                        </div>
+                        <p class="cat-description">Automating the lifecycle of cloud resources with zero manual drift and high reusability.</p>
+                        <div class="chip-grid">
+                            <span class="skill-chip">Terraform (HCL)</span>
+                            <span class="skill-chip">Modular Architecture</span>
+                            <span class="skill-chip">State Management</span>
+                            <span class="skill-chip">Ansible Playbooks</span>
+                            <span class="skill-chip">Bash Shell Scripting</span>
+                            <span class="skill-chip">7-Day IaC Challenge</span>
+                        </div>
+                    </div>
+
+                    <!-- CI/CD & Build Pipelines -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="cat-icon cicd-gradient">🔄</div>
+                            <div>
+                                <h3>CI/CD & DevOps Automation</h3>
+                                <p>Continuous Integration & Deployment</p>
+                            </div>
+                        </div>
+                        <p class="cat-description">Engineering self-triggering build, test, containerize, and deployment pipelines.</p>
+                        <div class="chip-grid">
+                            <span class="skill-chip">GitHub Actions</span>
+                            <span class="skill-chip">Jenkins Pipelines</span>
+                            <span class="skill-chip">Automated Pytest / Jest</span>
+                            <span class="skill-chip">GitHub Secrets</span>
+                            <span class="skill-chip">Git & GitHub</span>
+                            <span class="skill-chip">Automated Health Checks</span>
+                        </div>
+                    </div>
+
+                    <!-- Technical Support & Systems -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="cat-icon support-gradient">🎧</div>
+                            <div>
+                                <h3>IT & Technical Support</h3>
+                                <p>Troubleshooting & User Assistance</p>
+                            </div>
+                        </div>
+                        <p class="cat-description">Resolving hardware, software, network, and application issues with professional customer service.</p>
+                        <div class="chip-grid">
+                            <span class="skill-chip">Windows 10/11</span>
+                            <span class="skill-chip">Linux Administration</span>
+                            <span class="skill-chip">Remote Desktop (RDP)</span>
+                            <span class="skill-chip">AnyDesk / TeamViewer</span>
+                            <span class="skill-chip">Network Diagnostics</span>
+                            <span class="skill-chip">MS Excel / Word</span>
+                            <span class="skill-chip">Active Listening</span>
+                            <span class="skill-chip">Rotational Shifts</span>
+                        </div>
+                    </div>
+
+                    <!-- Languages & Tools -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="cat-icon dev-gradient">💻</div>
+                            <div>
+                                <h3>Languages & Developer Tools</h3>
+                                <p>Code, Testing & Collaboration</p>
+                            </div>
+                        </div>
+                        <p class="cat-description">Building backend services, automation scripts, and database queries.</p>
+                        <div class="chip-grid">
+                            <span class="skill-chip">Python 3</span>
+                            <span class="skill-chip">Bash Scripting</span>
+                            <span class="skill-chip">SQL / MySQL / PostgreSQL</span>
+                            <span class="skill-chip">HTML5 / CSS3 / JS</span>
+                            <span class="skill-chip">VS Code</span>
+                            <span class="skill-chip">Postman API Testing</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section id="projects" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">FEATURED WORK</span>
+                    <h2 class="section-title">Engineered <span>Projects</span></h2>
+                    <p class="section-desc">Production-grade cloud architectures, automated deployment workflows, and containerized implementations.</p>
+                </div>
+
+                <!-- Project Filters -->
+                <div class="filter-container">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="cloud">AWS & Cloud</button>
+                    <button class="filter-btn" data-filter="cicd">CI/CD & DevOps</button>
+                    <button class="filter-btn" data-filter="iac">Terraform & IaC</button>
+                    <button class="filter-btn" data-filter="support">Tech Support</button>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- Project 1: AWS 3-Tier -->
+                    <article class="project-card" data-category="cloud">
+                        <div class="project-header">
+                            <div class="project-badge cloud-badge">AWS Production Blueprint</div>
+                            <span class="project-year">2026</span>
+                        </div>
+                        <h3 class="project-title">AWS High-Availability Three-Tier Architecture</h3>
+                        <p class="project-summary">
+                            Architected and deployed a secure, fault-tolerant three-tier web application infrastructure across multiple Availability Zones following AWS Well-Architected Framework best practices.
+                        </p>
+                        <ul class="project-features">
+                            <li><strong>Web Tier:</strong> Application Load Balancer (ALB) distributing traffic across NGINX reverse-proxy instances in Public Subnets.</li>
+                            <li><strong>App Tier:</strong> Auto Scaling Groups (ASG) dynamically scaling EC2 instances in Private Subnets with NAT Gateway outbound connectivity.</li>
+                            <li><strong>Data Tier:</strong> High-Availability Amazon RDS database deployed in isolated private database subnets with Multi-AZ automated failover.</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>AWS VPC</span>
+                            <span>EC2</span>
+                            <span>ALB</span>
+                            <span>Auto Scaling</span>
+                            <span>Amazon RDS</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#architecture" class="btn btn-xs btn-outline">
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                                <span>View Architecture</span>
+                            </a>
+                            <a href="https://github.com/Maliuday" target="_blank" rel="noopener noreferrer" class="btn btn-xs btn-secondary">
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                                <span>GitHub Source</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Terraform IaC -->
+                    <article class="project-card" data-category="iac">
+                        <div class="project-header">
+                            <div class="project-badge iac-badge">Infrastructure as Code</div>
+                            <span class="project-year">2026</span>
+                        </div>
+                        <h3 class="project-title">Infrastructure Provisioning with Terraform (7-Day Challenge)</h3>
+                        <p class="project-summary">
+                            Engineered modular, reusable Infrastructure as Code (IaC) blueprints to provision and manage cloud infrastructure and containerized workloads automatically.
+                        </p>
+                        <ul class="project-features">
+                            <li><strong>Modular Architecture:</strong> Reusable Terraform modules with parameterized inputs, variable validation, and outputs.</li>
+                            <li><strong>Automated Provisioning:</strong> Automated VPCs, Security Groups, EC2 instances, and local NGINX Docker containers.</li>
+                            <li><strong>State Management:</strong> State locking and zero-downtime resource recreation.</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>Terraform</span>
+                            <span>HCL</span>
+                            <span>Docker Provider</span>
+                            <span>AWS Provider</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Maliuday" target="_blank" rel="noopener noreferrer" class="btn btn-xs btn-secondary">
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                                <span>Explore Code</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: GitHub Actions & Docker CI/CD -->
+                    <article class="project-card" data-category="cicd">
+                        <div class="project-header">
+                            <div class="project-badge cicd-badge">CI/CD Automation</div>
+                            <span class="project-year">2026</span>
+                        </div>
+                        <h3 class="project-title">CI/CD Pipeline with GitHub Actions & Docker</h3>
+                        <p class="project-summary">
+                            End-to-end automated Continuous Integration and Continuous Deployment pipeline executing automated testing, Docker containerization, and EC2 deployment on push.
+                        </p>
+                        <ul class="project-features">
+                            <li><strong>Automated Testing:</strong> Triggers Pytest execution on pull requests and commits.</li>
+                            <li><strong>Docker Packaging:</strong> Multi-stage Docker build producing lightweight production container images.</li>
+                            <li><strong>Deployment Automation:</strong> Automated delivery to Docker containers with Docker Compose support.</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>GitHub Actions</span>
+                            <span>Docker</span>
+                            <span>Python Flask</span>
+                            <span>Pytest</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Maliuday" target="_blank" rel="noopener noreferrer" class="btn btn-xs btn-secondary">
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                                <span>Pipeline Source</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: Technical Support & Incident Troubleshooting Simulation -->
+                    <article class="project-card" data-category="support">
+                        <div class="project-header">
+                            <div class="project-badge app-badge">IT Systems & Support</div>
+                            <span class="project-year">2025 – 2026</span>
+                        </div>
+                        <h3 class="project-title">IT Support & Network Troubleshooting Workbench</h3>
+                        <p class="project-summary">
+                            End-to-end simulation and practical documentation of desktop OS troubleshooting, network connectivity isolation, remote user assistance, and ticket management workflows.
+                        </p>
+                        <ul class="project-features">
+                            <li><strong>Network Triage:</strong> Diagnosed DNS resolution failures, DHCP lease expirations, and subnet conflicts using CLI diagnostics.</li>
+                            <li><strong>Remote Assistance:</strong> Configured secure RDP and AnyDesk remote sessions to guide end-users through software configurations.</li>
+                            <li><strong>Customer Service:</strong> Authored standard operating procedures (SOPs) for user onboarding, password resets, and hardware configurations.</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span>Technical Support</span>
+                            <span>Windows & Linux</span>
+                            <span>TCP/IP Diagnostics</span>
+                            <span>RDP / Remote</span>
+                            <span>SOPs</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="assets/docs/Uday_Mali_Support_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-xs btn-secondary">
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                                <span>View Support CV</span>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Architecture Explorer Section -->
+        <section id="architecture" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">SYSTEM BLUEPRINTS</span>
+                    <h2 class="section-title">Cloud <span>Architecture</span> Showcase</h2>
+                    <p class="section-desc">Interactive visual breakdown of high-availability AWS topologies and automated DevOps CI/CD pipelines.</p>
+                </div>
+
+                <div class="architecture-tabs">
+                    <button class="arch-tab-btn active" data-arch="aws">AWS 3-Tier Multi-AZ Topology</button>
+                    <button class="arch-tab-btn" data-arch="cicd">Automated CI/CD Delivery Pipeline</button>
+                </div>
+
+                <!-- AWS Architecture Panel -->
+                <div class="architecture-view active" id="arch-aws">
+                    <div class="arch-card">
+                        <div class="arch-header">
+                            <div>
+                                <h3>AWS Highly-Available Multi-AZ Three-Tier Architecture</h3>
+                                <p>VPC Segmentation with Public, Private & Database Subnets</p>
+                            </div>
+                            <span class="arch-pill">AWS Production Topology</span>
+                        </div>
+
+                        <div class="diagram-wrapper">
+                            <pre class="terminal-diagram">
++---------------------------------------------------------------------------------------------------+
+|                                  Amazon Virtual Private Cloud (VPC)                               |
+|                                                                                                   |
+|   [ Internet ] ===&gt; [ Internet Gateway (IGW) ] ===&gt; [ Application Load Balancer (ALB) ]           |
+|                                                                                                   |
+|  +-------------------------------------------------+-------------------------------------------+  |
+|  |           Availability Zone 1 (AZ-a)            |           Availability Zone 2 (AZ-b)      |  |
+|  |                                                 |                                           |  |
+|  |  +-------------------------------------------+  |  +-------------------------------------+  |  |
+|  |  | [Public Subnet 1]                         |  |  | [Public Subnet 2]                   |  |  |
+|  |  |   - NGINX Web Server 1                    |  |  |   - NGINX Web Server 2              |  |  |
+|  |  |   - NAT Gateway (Outbound updates)        |  |  |   - Redundant Route Tables          |  |  |
+|  |  +-------------------------------------------+  |  +-------------------------------------+  |  |
+|  |                        |                        |                        |                  |  |
+|  |  +---------------------v---------------------+  |  +---------------------v---------------+  |  |
+|  |  | [Private Application Subnet 1]            |  |  | [Private Application Subnet 2]      |  |  |
+|  |  |   - Auto Scaling Group (App Instance 1)   |  |  |   - Auto Scaling Group (Instance 2) |  |  |
+|  |  |   - Dynamic Workload Processing           |  |  |   - CloudWatch Alarm Scaling        |  |  |
+|  |  +-------------------------------------------+  |  +-------------------------------------+  |  |
+|  |                        |                        |                        |                  |  |
+|  |  +---------------------v---------------------+  |  +---------------------v---------------+  |  |
+|  |  | [Isolated Database Subnet 1]               |  |  | [Isolated Database Subnet 2]         |  |  |
+|  |  |   - Amazon RDS Primary (Postgres / MySQL) |&lt;===&gt;|   - Amazon RDS Standby (Multi-AZ)   |  |  |
+|  |  +-------------------------------------------+  |  +-------------------------------------+  |  |
+|  +-------------------------------------------------+-------------------------------------------+  |
+|                                                                                                   |
+|   [ CloudWatch Monitoring & Metrics ] &lt;--- [ AWS IAM Least-Privilege Role Policies ]             |
++---------------------------------------------------------------------------------------------------+
+                            </pre>
+                        </div>
+
+                        <div class="arch-breakdown-grid">
+                            <div class="breakdown-item">
+                                <span class="breakdown-num">01</span>
+                                <h4>Public Web Tier</h4>
+                                <p>Internet Gateway routes traffic to dual-AZ Application Load Balancers and NGINX instances. NAT Gateway allows instances in private subnets to pull updates without public exposure.</p>
+                            </div>
+                            <div class="breakdown-item">
+                                <span class="breakdown-num">02</span>
+                                <h4>Private Application Tier</h4>
+                                <p>Application workloads run inside private subnets controlled by an Auto Scaling Group, dynamically adapting to traffic demands and supervised by CloudWatch alarms.</p>
+                            </div>
+                            <div class="breakdown-item">
+                                <span class="breakdown-num">03</span>
+                                <h4>Isolated Database Tier</h4>
+                                <p>Multi-AZ Amazon RDS deployment provides synchronous standby replication and automated failover with strict zero-public-access security groups.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CI/CD Architecture Panel -->
+                <div class="architecture-view" id="arch-cicd">
+                    <div class="arch-card">
+                        <div class="arch-header">
+                            <div>
+                                <h3>Automated Continuous Integration & Delivery Pipeline</h3>
+                                <p>From Git Commit to Verified Production Container Deployment</p>
+                            </div>
+                            <span class="arch-pill">CI/CD Automation</span>
+                        </div>
+
+                        <div class="diagram-wrapper">
+                            <pre class="terminal-diagram">
++-------------+      +------------------+      +-------------------+      +-------------------+
+|  Developer  | ===&gt; |  Git Push to     | ===&gt; |  GitHub Actions   | ===&gt; |  Environment &     |
+|  Code & PR   |      |  main / feature  |      |  Runner Triggered |      |  Dependency Setup |
++-------------+      +------------------+      +-------------------+      +-------------------+
+                                                                                    |
+                                                                                    v
++------------------+      +------------------+      +-------------------+      +-------------------+
+|  Automated Live  | &lt;=== |  Docker Deploy   | &lt;=== |  Push Image to    | &lt;=== |  Automated Tests  |
+|  Health /health  |      |  Container Run   |      |  Docker Hub Reg.  |      |  Pytest / Jest    |
++------------------+      +------------------+      +-------------------+      +-------------------+
+        |
+        v
+[ Zero-Downtime Live Production Service ]
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Journey & Education Timeline -->
+        <section id="journey" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">EDUCATION & EXPERIENCE</span>
+                    <h2 class="section-title">My <span>Journey</span></h2>
+                    <p class="section-desc">Academic excellence, virtual internships, and continuous technical mastery.</p>
+                </div>
+
+                <div class="timeline">
+
+                    <!-- MCA -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="timeline-icon">🎓</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-badge current-badge">2025 – 2027</span>
+                                <span class="timeline-tag">Post-Graduation</span>
+                            </div>
+                            <h3 class="timeline-title">Master of Computer Applications (MCA)</h3>
+                            <h4 class="timeline-subtitle">School of Computer Science, Kavayitri Bahinabai Chaudhari North Maharashtra University (KBCNMU), Jalgaon</h4>
+                            <p class="timeline-text">
+                                Advanced studies focusing on distributed computing, cloud architecture, DevOps automation, scalable systems, and software engineering methodologies.
+                            </p>
+                            <div class="timeline-pills">
+                                <span>Advanced DevOps</span>
+                                <span>Distributed Systems</span>
+                                <span>Cloud Computing</span>
+                                <span>System Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BCA -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="timeline-icon">🎓</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-badge">2022 – 2025</span>
+                                <span class="timeline-tag score-tag">CGPA: 8.18 / 10.0 (Distinction)</span>
+                            </div>
+                            <h3 class="timeline-title">Bachelor of Computer Applications (BCA)</h3>
+                            <h4 class="timeline-subtitle">Moolji Jaitha College (Autonomous), Jalgaon</h4>
+                            <p class="timeline-text">
+                                Graduated with First Class with Distinction. Built strong foundational expertise in computer science, database management systems (DBMS), object-oriented programming, data structures, and computer networking. Completed capstone: <em>Student Result Management System</em>.
+                            </p>
+                            <div class="timeline-pills">
+                                <span>Data Structures</span>
+                                <span>Database Systems</span>
+                                <span>OOP (Java/Python)</span>
+                                <span>Web Technologies</span>
+                                <span>Networking Fundamentals</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HSC -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="timeline-icon">📜</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-badge">2021 – 2022</span>
+                                <span class="timeline-tag score-tag">Score: 73.50%</span>
+                            </div>
+                            <h3 class="timeline-title">Higher Secondary Certificate (HSC)</h3>
+                            <h4 class="timeline-subtitle">Ladkubai Vidyamandir & DSMP Junior College, Bhadgaon</h4>
+                            <p class="timeline-text">
+                                Completed higher secondary education with strong analytical, mathematical, and computer science foundations.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- SSC -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="timeline-icon">📜</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-badge">2019 – 2020</span>
+                                <span class="timeline-tag score-tag">Score: 89.40% (Distinction)</span>
+                            </div>
+                            <h3 class="timeline-title">Secondary School Certificate (SSC)</h3>
+                            <h4 class="timeline-subtitle">Ladkubai Vidya Mandir, Bhadgaon</h4>
+                            <p class="timeline-text">
+                                Graduated secondary schooling with high distinction, scoring 89.40%.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Certifications -->
+        <section id="achievements" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">HONORS & CREDENTIALS</span>
+                    <h2 class="section-title">Certifications & <span>Achievements</span></h2>
+                    <p class="section-desc">Recognitions that showcase problem solving, research ability, and technical dedication.</p>
+                </div>
+
+                <div class="achievements-grid">
+
+                    <!-- Avishkar Award -->
+                    <div class="achievement-card highlight-card">
+                        <div class="award-header">
+                            <div class="award-icon trophy-icon">🏆</div>
+                            <span class="award-pill gold-pill">1st Prize Winner</span>
+                        </div>
+                        <h3>Avishkar Research Convention (2025)</h3>
+                        <p class="award-subtitle">District Level Champion & State Round Finalist</p>
+                        <p class="award-description">
+                            Secured <strong>First Prize at the District Level Avishkar Research Convention</strong>, competing against top research projects across collegiate institutions, and was honored with selection for the prestigious <strong>Maharashtra State Level Round</strong>.
+                        </p>
+                        <div class="award-badge">Research Excellence</div>
+                    </div>
+
+                    <!-- AWS Certification -->
+                    <div class="achievement-card">
+                        <div class="award-header">
+                            <div class="award-icon aws-icon">☁️</div>
+                            <span class="award-pill blue-pill">Amazon Web Services</span>
+                        </div>
+                        <h3>AWS Cloud Practitioner Essentials</h3>
+                        <p class="award-subtitle">Certified Cloud Fundamentals</p>
+                        <p class="award-description">
+                            Comprehensive certification covering AWS global cloud infrastructure, core services (Compute, Storage, Networking, Database), security best practices, IAM, and the Well-Architected Framework.
+                        </p>
+                        <div class="award-badge">AWS Official Learning</div>
+                    </div>
+
+                    <!-- Terraform Challenge -->
+                    <div class="achievement-card">
+                        <div class="award-header">
+                            <div class="award-icon terraform-icon">⚡</div>
+                            <span class="award-pill purple-pill">Infrastructure as Code</span>
+                        </div>
+                        <h3>7-Day Terraform IaC Challenge</h3>
+                        <p class="award-subtitle">Hands-On Infrastructure Mastery</p>
+                        <p class="award-description">
+                            Completed an intensive 7-day challenge formulating modular Terraform configurations, managing remote state, configuring AWS VPC and EC2 environments, and provisioning automated local Docker containers.
+                        </p>
+                        <div class="award-badge">IaC Production Ready</div>
+                    </div>
+
+                    <!-- CodeAlpha Internship -->
+                    <div class="achievement-card">
+                        <div class="award-header">
+                            <div class="award-icon intern-icon">💼</div>
+                            <span class="award-pill green-pill">Industry Experience</span>
+                        </div>
+                        <h3>CI/CD & Docker Automation</h3>
+                        <p class="award-subtitle">Automated Pipeline Implementation</p>
+                        <p class="award-description">
+                            Successfully engineered continuous delivery workflows combining GitHub Actions, Jenkins, Docker multi-stage packaging, and automated test validation.
+                        </p>
+                        <div class="award-badge">DevOps Certified</div>
+                    </div>
+
+                    <!-- Academic Distinction -->
+                    <div class="achievement-card">
+                        <div class="award-header">
+                            <div class="award-icon academic-icon">🎓</div>
+                            <span class="award-pill cyan-pill">Academic Distinction</span>
+                        </div>
+                        <h3>BCA CGPA 8.18 / 10.0 & SSC 89.40%</h3>
+                        <p class="award-subtitle">Consistent Academic Merit</p>
+                        <p class="award-description">
+                            Awarded First Class with Distinction for undergraduate Bachelor of Computer Applications degree, coupled with a high distinction score of 89.40% in Secondary Schooling.
+                        </p>
+                        <div class="award-badge">Academic Excellence</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive CloudShell Terminal Section -->
+        <section id="terminal" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">INTERACTIVE CLI</span>
+                    <h2 class="section-title">CloudShell <span>Terminal</span></h2>
+                    <p class="section-desc">Experience an interactive command-line interface. Run commands to explore my technical profile in real time.</p>
+                </div>
+
+                <div class="terminal-container">
+                    <div class="terminal-window">
+                        <div class="terminal-bar">
+                            <div class="terminal-buttons">
+                                <span class="term-btn btn-close"></span>
+                                <span class="term-btn btn-min"></span>
+                                <span class="term-btn btn-max"></span>
+                            </div>
+                            <div class="terminal-title">uday@aws-cloudshell: ~ (bash)</div>
+                            <div class="terminal-status">
+                                <span class="status-dot"></span> CONNECTED
+                            </div>
+                        </div>
+
+                        <div class="terminal-body" id="terminalOutput">
+                            <div class="term-line">
+                                <span class="term-prompt">Welcome to Uday's Cloud & Support Shell v2.6 (x86_64-aws-linux)</span>
+                            </div>
+                            <div class="term-line">
+                                <span class="term-muted">Type <span class="term-highlight">'help'</span> to see all available commands, or click the quick action chips below.</span>
+                            </div>
+                        </div>
+
+                        <div class="terminal-input-row">
+                            <span class="term-prompt">uday@cloud:~$</span>
+                            <input type="text" id="terminalInput" class="term-input" placeholder="Type a command (e.g. support, skills, projects, contact, resume)..." autocomplete="off" spellcheck="false">
+                            <button id="terminalSubmit" class="term-submit-btn">Run</button>
+                        </div>
+
+                        <div class="terminal-quick-chips">
+                            <span class="chip-label">Quick Commands:</span>
+                            <button class="quick-chip" data-cmd="support">support</button>
+                            <button class="quick-chip" data-cmd="skills">skills</button>
+                            <button class="quick-chip" data-cmd="projects">projects</button>
+                            <button class="quick-chip" data-cmd="achievements">achievements</button>
+                            <button class="quick-chip" data-cmd="education">education</button>
+                            <button class="quick-chip" data-cmd="resume">resume</button>
+                            <button class="quick-chip" data-cmd="contact">contact</button>
+                            <button class="quick-chip" data-cmd="sudo hire-uday">sudo hire-uday</button>
+                            <button class="quick-chip" data-cmd="clear">clear</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">GET IN TOUCH</span>
+                    <h2 class="section-title">Let's <span>Connect</span></h2>
+                    <p class="section-desc">Open for full-time Cloud & DevOps roles, IT & Technical Support positions, customer service opportunities, and collaboration.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-col">
+                        <div class="contact-card">
+                            <div class="contact-icon-wrapper">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-type">Email Address</span>
+                                <a href="mailto:maliuday0326@gmail.com" class="contact-value">maliuday0326@gmail.com</a>
+                                <button class="copy-btn" data-copy="maliuday0326@gmail.com">Copy Email</button>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon-wrapper">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-type">Phone / Mobile</span>
+                                <a href="tel:+918626060798" class="contact-value">+91-8626060798</a>
+                                <a href="https://wa.me/918626060798" target="_blank" rel="noopener noreferrer" class="whatsapp-link">Chat on WhatsApp &rarr;</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon-wrapper">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-type">GitHub Profile</span>
+                                <a href="https://github.com/Maliuday" target="_blank" rel="noopener noreferrer" class="contact-value">github.com/Maliuday</a>
+                                <span class="contact-sub">Repositories, pipelines & code samples</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon-wrapper">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-type">LinkedIn Network</span>
+                                <a href="https://linkedin.com/in/uday-mali-7aa1b7286" target="_blank" rel="noopener noreferrer" class="contact-value">linkedin.com/in/uday-mali-7aa1b7286</a>
+                                <span class="contact-sub">Professional network & updates</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-col">
+                        <div class="form-wrapper">
+                            <h3 class="form-title">Send a Direct Message</h3>
+                            <p class="form-subtitle">Have an opportunity in Cloud, DevOps, or Technical Support? Drop me a message below.</p>
+
+                            <form id="contactForm" class="contact-form">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" placeholder="Opportunity in DevOps / Tech Support" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="5" placeholder="Hi Uday, I came across your portfolio and would love to connect..." required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block submit-btn" id="submitBtn">
+                                    <span>Send Message</span>
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                </button>
+                                <div id="formStatus" class="form-status"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-bracket">&lt;</span>
+                        <span class="logo-name">UDAY</span>
+                        <span class="logo-dot">.</span>
+                        <span class="logo-suffix">MALI</span>
+                        <span class="logo-bracket">/&gt;</span>
+                    </a>
+                    <p class="footer-tagline">Architecting Resilient Cloud Infrastructure, Automated Pipelines & Technical Support.</p>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#support">Tech Support</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#architecture">Architecture</a>
+                    <a href="#achievements">Achievements</a>
+                    <a href="assets/docs/Uday_Mali_DevOps_Resume.pdf" target="_blank" rel="noopener noreferrer">DevOps CV</a>
+                    <a href="assets/docs/Uday_Mali_Support_Resume.pdf" target="_blank" rel="noopener noreferrer">Support CV</a>
+                </div>
+
+                <div class="footer-socials">
+                    <a href="https://github.com/Maliuday" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/uday-mali-7aa1b7286" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                    <a href="mailto:maliuday0326@gmail.com" aria-label="Email">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Uday Manoj Mali. Engineered with modern HTML5, CSS3 & JavaScript.</p>
+                <a href="#home" class="back-to-top" aria-label="Scroll back to top">
+                    <span>Back to Top</span>
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle -->
+    <script src="script.js"></script>
+</body>
+</html>
